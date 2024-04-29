@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar-App</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body onload="RenderDate()">
+    
+
+        <div class="wrapper">
+            <div class="calendar">
+                <div class="month">
+                    <div class="prev" onclick="moveData('prev')">
+                        <span>&#10094</span>
+                    </div>
+                    <div>
+                        <h2 id="month">January</h2>
+                        <p id="date_str">Sat April 28 2024</p>
+                    </div>
+                    <div class="next" onclick="moveData('next')">
+                        <span>&#10095</span>
+                    </div>
+                </div>
+                <div class="weekends">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thur</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="days"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
